@@ -1,0 +1,16 @@
+---
+interface Props {
+  text: string
+  href: string
+}
+const { href, text } = Astro.props
+---
+
+<button
+  type="button"
+  class="inline-flex items-center justify-center gap-2 px-4 py-4 mb-2 text-sm font-semibold transition-all border border-transparent rounded-md hover:outline hover:outline-[#ca8a04] hover:dark:outliune-blue-500 text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:text-gray-500 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:focus:ring-offset-gray-800"
+>
+  <a href={href}>
+    {text}
+  </a>
+</button>

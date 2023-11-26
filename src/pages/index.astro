@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Hero from '../components/elements/Hero.astro'
+import Mission from '../components/sections/Mission.astro'
+import Impact from '../components/sections/CareerImpact.astro'
+import Countdown from '../components/elements/Countdown.astro'
+import Products from '../components/sections/Products.astro'
+
+import "../styles/global.css"
+---
+
+<Layout title="">
+  <div class="max-h-screen overflow-y-scroll scrollbar-hide snap-start snap-y snap-mandatory">
+    <div class="h-screen snap-start py-20">
+      <Hero
+        title="WE ARE COLORADO CODERS"
+        content="A passionate organization founded by locals dedicated to empowering local Colorado businesses through cutting-edge technology."
+        link="#"
+        linkText='LEARN MORE'
+        padding='pt-24'
+      />
+    </div>
+  </div>
+</Layout>
