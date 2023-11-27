@@ -5,7 +5,10 @@ export default {
     extend: {
       fontFamily: {
         rubik: ['Rubik', 'sans'], // 'Rubik' is the font name
-      }
+      },
+      backgroundImage: {
+        'contours': "url('/public/contours.png')",
+      },
     },
   },
   plugins: [require('@tailwindcss/typography')],
