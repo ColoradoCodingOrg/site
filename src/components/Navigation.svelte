@@ -31,7 +31,7 @@
 </script>
 
 <nav
-  class="top-0 bg-contours flex items-center justify-between h-20 px-12 py-4 shadow-md bg-gray-300 dark:bg-gray-900 md:px-24"
+  class="top-0 bg-contours text-white flex items-center justify-between h-20 px-12 py-4 shadow-md bg-gray-400 dark:bg-gray-900 md:px-24"
 >
   <a class="text-3xl font-bold leading-none" href="/">
     <img width="50px" src={CCALogo.src}/>
