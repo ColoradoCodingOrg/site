@@ -34,7 +34,7 @@
   class="top-0 bg-contours flex items-center justify-between h-20 px-12 py-4 shadow-md bg-gray-300 dark:bg-gray-900 md:px-24"
 >
   <a class="text-3xl font-bold leading-none" href="/">
-    <img width="50px" src={CALogo}/>
+    <img width="50px" src={CCALogo.src}/>
   </a>
   <div class="lg:hidden" on:click={toggleMenu}>
     <button class="flex items-center p-3 navbar-burger">
@@ -76,7 +76,7 @@
     >
       <div class="flex items-center mb-8">
         <a class="mr-auto text-3xl font-bold leading-none" href="/">
-          <img width="50px" src={CALogo}/>
+          <img width="50px" src={CCALogo.src}/>
         </a>
         <button class="navbar-close" on:click={toggleMenu}>
           <Icon class="text-2xl" icon="mdi:window-close" />
