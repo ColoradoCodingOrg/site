@@ -1,0 +1,31 @@
+---
+import { imageConfig } from 'astro:assets'
+import { Dropdown, DropdownItem, Avatar, Button } from 'flowbite-svelte'
+import { Icon } from 'astro-icon'
+
+interface Props {
+  name: string
+  title: string
+  image: string
+  linkedin: string
+  website: string
+}
+const { name, title, image } = Astro.props
+---
+
+<div class="flex items-center lg:w-1/5 xl:w-1/5 w-full p-4">
+  <div
+    class="shrink-0 flex border w-full bg-white bg-opacity-60 dark:border-white dark:bg-transparent rounded-lg flex-col items-center p-8 h-max"
+  >
+    <Avatar size="lg" src={image} rounded-full />
+    <p class="truncate mb-1 text-xl font-bold text-gray-900 dark:text-white">
+      {name}
+    </p>
+    <p class="truncate text-sm font-light">{title}</p>
+    <div class="items-center justify-center pt-2 flex">
+      <Icon class="w-10 h-10" pack="mdi" name="linkedin" />
+      <Icon class="w-10 h-10" pack="mdi" name="web" />
+    </div>
+  </div>
+  </div>
+</div>

@@ -4,6 +4,7 @@
   import VerticalDropdown from '../components/dropdown/Vertical.svelte'
   import HorizontalDropdown from '../components/dropdown/Horizontal.svelte'
   import CCALogo from '../../public/cca.svg'
+  import DarkButton from './buttons/DarkButton.svelte'
 
   let isMenuHidden = true
 
@@ -58,20 +59,14 @@
     class="hidden px-6 transition duration-200 lg:inline-block rounded-xl"
     href="#"
   >
-    <button
-      type="button"
-      class="inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-all bg-[#0277bd] border border-transparent rounded-md hover:ring-2 ring-[] hover:bg-[#0277bd] hover:text-white focus:outline-none focus:ring-2 ring-offset-white focus:ring-[] focus:ring-offset-2 dark:bg-gray-700 dark:hover:bg-gray-950 dark:text-white"
-    >
-      GET IN TOUCH
-    </button></a
-  >
+  <DarkButton href="#" text="GET IN TOUCH"/>
 </nav>
 
 {#if !isMenuHidden}
   <div class="relative z-50 navbar-menu">
-    <div class="fixed inset-0 bg-gray-800 opacity-0 navbar-backdrop" />
+    <div class="fixed inset-0 opacity-0 navbar-backdrop" />
     <nav
-      class="fixed top-0 bottom-0 left-0 flex flex-col w-5/6 max-w-sm px-6 py-6 overflow-y-auto border-r-2 border-black dark:border-white bg-gray-300 dark:bg-gray-900"
+      class="fixed top-0 bottom-0 left-0 flex flex-col w-5/6 max-w-sm px-6 py-6 overflow-y-auto border-r-2 border-black dark:border-white bg-gray-400 dark:bg-gray-900"
       use:onClickOutside
     >
       <div class="flex items-center mb-8">
@@ -97,14 +92,9 @@
       </div>
       <div class="mt-auto">
         <div class="pt-6">
-          <a
-            class="block px-4 py-3 mb-2 text-xs font-semibold leading-loose text-center text-white transition-all bg-blue-400 border border-transparent rounded-md hover:ring-2 ring-blue-800 hover:bg-blue-950 hover:text-white focus:outline-none focus:ring-2 ring-offset-white focus:ring-blue-300 focus:ring-offset-2 dark:bg-gray-700 dark:hover:bg-gray-950 dark:text-white"
-            href="#"
-          >
-            <button>GET IN TOUCH</button>
-          </a>
+          <DarkButton href="#" text="GET IN TOUCH"/>
         </div>
-        <p class="my-4 text-xs text-center text-gray-400">
+        <p class="my-4 text-xs text-center text-black dark:text-white">
           <span>COLORADO CODERS</span>
         </p>
       </div>

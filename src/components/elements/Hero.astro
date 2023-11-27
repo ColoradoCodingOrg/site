@@ -15,45 +15,44 @@ const {
   link = null,
   linkText = null,
   padding,
-  contentClasses
+  contentClasses,
 } = Astro.props
 ---
-<script is:inline define:vars={{content}}>
 
-</script>
+<script is:inline define:vars={{ content }}></script>
 
-<div
-  class:list={[
-    'max-w-[85rem] mx-auto px-4 pt-inherit',
-    padding,
-  ]}
->
-  <!-- Title -->
-  <div class="max-w-6xl mx-auto mt-5 text-center">
-    <h1 class="block text-4xl font-bold md:text-5xl lg:text-6xl">
-      {title}
-    </h1>
+<div class:list={['flex max-w-[85rem] mx-auto justify-center px-4 pt-inherit', padding]}>
+  <div class=" items-center w-42 p-12 rounded-lg bg-opacity-60 bg-white dark:bg-inherit">
+    <!-- Title -->
+    <div class="max-w-6xl mx-auto mt-5 text-center">
+      <h1 class="block text-4xl font-bold md:text-5xl lg:text-6xl">
+        {title}
+      </h1>
+    </div>
+    <!-- End Title -->
+
+    <div class="max-w-3xl mx-auto mt-5 text-center">
+      <p
+        id="content"
+        class:list={[
+          'text-lg text-gray-600 dark:text-gray-400',
+          contentClasses,
+        ]}
+      >
+        {content}
+      </p>
+    </div>
+
+    <!-- Buttons -->
+    {
+      link ? (
+        <div class="flex grid w-full gap-3 mt-8 sm:inline-flex sm:justify-center">
+          <DarkButton href={link} text={linkText} icon="" />
+        </div>
+      ) : (
+        ''
+      )
+    }
+    <!-- End Buttons -->
   </div>
-  <!-- End Title -->
-
-  <div class="max-w-3xl mx-auto mt-5 text-center">
-    <p id='content' class:list={[
-      "text-lg text-gray-600 dark:text-gray-400",
-      contentClasses,
-    ]}>
-      {content}
-    </p>
-  </div>
-
-  <!-- Buttons -->
-  {
-    link ? (
-      <div class="flex grid w-full gap-3 mt-8 sm:inline-flex sm:justify-center">
-        <DarkButton href={link} text={linkText} icon=""/>
-      </div>
-    ) : (
-      ''
-    )
-  }
-  <!-- End Buttons -->
 </div>
