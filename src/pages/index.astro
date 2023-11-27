@@ -6,15 +6,20 @@ import "../styles/global.css"
 ---
 
 <Layout title="">
-  <div class="bg-contours max-h-screen overflow-y-scroll scrollbar-hide snap-start snap-y snap-mandatory">
-    <div class="h-screen snap-start py-20 overflow-hidden">
-      <Hero
-        title="WE ARE COLORADO CODERS"
-        content="A passionate organization founded by locals dedicated to empowering local Colorado businesses through cutting-edge technology."
-        link="#"
-        linkText='LEARN MORE'
-        padding='pt-24'
-      />
+  <div class="z-10 bg-contours max-h-screen overflow-y-scroll scrollbar-hide snap-start snap-y snap-mandatory">
+    <div class="flex h-screen w-full">
+      <div class="h-screen w-full md:w-7/12 lg:w-7/12 xl:w-7/12 m-0 snap-start py-20 overflow-hidden">
+        <Hero
+          title="WE ARE COLORADO CODERS"
+          content="A passionate organization founded by locals dedicated to empowering local Colorado businesses through cutting-edge technology."
+          link="#"
+          linkText='LEARN MORE'
+          padding='pt-24'
+        />
+      </div>
+      <div class="w-0 md:w-5/12 lg:w-5/12 xl:w-5/12">
+        <img class="h-full w-full z-0 invisible md:visible lg:visible xl:visible" style="object-fit: cover;clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);" src="/public/background.webp"/>
+      </div>
     </div>
   </div>
 </Layout>
