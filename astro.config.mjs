@@ -9,6 +9,6 @@ export default defineConfig({
     tailwind(),
     svelte(),
   ],
-  site: 'https://coloradocoders.org',
+  site: 'https://www.coloradocoding.org',
   base: '/',
 })
