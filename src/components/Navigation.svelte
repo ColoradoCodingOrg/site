@@ -49,10 +49,10 @@
       <LightButton text="WHO WE ARE" href="/about" />
     </li>
     <li>
-      <LightButton text="HOW WE HELP" href="/about" />
+      <LightButton text="HOW WE HELP" href="/value" />
     </li>
     <li>
-      <LightButton text="OUR PORTFOLIO" href="/about" />
+      <LightButton text="OUR PORTFOLIO" href="/portfolio" />
     </li>
   </ul>
   <a
