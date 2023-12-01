@@ -1,0 +1,648 @@
+[
+  {
+    "category": "Traditional Kava",
+    "name": "Tongan",
+    "size": {
+      "oz": "dollar",
+      "8": 7.00,
+      "16": 14.00
+    },
+    "description": "Available in 8oz and 16oz",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Traditional Kava",
+    "name": "Fijian",
+    "size": {
+      "oz": "dollar",
+      "8": 7.00,
+      "16": 14.00
+    },
+    "description": "Available in 8oz and 16oz",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Traditional Kava",
+    "name": "Vanatu",
+    "size": {
+      "oz": "dollar",
+      "8": 7.00,
+      "16": 14.00
+    },
+    "description": "Available in 8oz and 16oz",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kava",
+    "name": "Amethyst Mist",
+    "size": {
+      "oz": "dollar",
+      "8": 8.00
+    },
+    "description": "Kava made with juices and lemonade",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kava",
+    "name": "Muddy Lemonade",
+    "size": {
+      "oz": "dollar",
+      "10": 10.00
+    },
+    "description": "Kava made with juices and lemonade",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kava",
+    "name": "Horchava",
+    "size": {
+      "oz": "dollar",
+      "10": 10.00
+    },
+    "description": "Kava made with juices and lemonade",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kava",
+    "name": "Horchava",
+    "size": {
+      "oz": "dollar",
+      "10": 10.00
+    },
+    "description": "Kava made with juices and lemonade",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kava Extract Shots",
+    "name": "Gold Rush",
+    "size": {
+      "oz": "dollar",
+      "1.5": 5.00,
+      "4": 10.00,
+      "8": 16.00
+    },
+    "description": "Available in 1.5oz, 4oz, and 8oz",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom",
+    "name": "Red Vein",
+    "size": {
+      "oz": "dollar",
+      "10": 5.00
+    },
+    "description": "Choose your vein + syrup flavor (10z)",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom",
+    "name": "Green Vein",
+    "size": {
+      "oz": "dollar",
+      "10": 5.00
+    },
+    "description": "Choose your vein + syrup flavor (10z)",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom",
+    "name": "White Vein",
+    "size": {
+      "oz": "dollar",
+      "10": 5.00
+    },
+    "description": "Choose your vein + syrup flavor (10z)",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom",
+    "name": "Motherload (RGW)",
+    "size": {
+      "oz": "dollar",
+      "10": 5.00
+    },
+    "description": "Choose your vein + syrup flavor (10z)",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kratom",
+    "name": "Pomi-granite Punch",
+    "size": {
+      "oz": "dollar",
+      "10": 9.00
+    },
+    "description": "10oz servings made with our signature recipies",
+    "sub-description": "green vein",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kratom",
+    "name": "Tropical Tranquility",
+    "size": {
+      "oz": "dollar",
+      "10": 9.00
+    },
+    "description": "10oz servings made with our signature recipies",
+    "sub-description": "red vein & damiana",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kratom",
+    "name": "Emerald Engine",
+    "size": {
+      "oz": "dollar",
+      "10": 9.00
+    },
+    "description": "10oz servings made with our signature recipies",
+    "sub-description": "white vein, green vein & yerba mate",
+    "caffeine": "false"
+  },
+  {
+    "category": "Premium Kratom",
+    "name": "Chai Apple Chill",
+    "size": {
+      "oz": "dollar",
+      "10": 9.00
+    },
+    "description": "10oz servings made with our signature recipies",
+    "sub-description": "red vein",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Shots",
+    "name": "Red Dynamitra",
+    "size": {
+      "oz": "dollar",
+      "1.5": 3.00
+    },
+    "description": "1.5oz servings",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Shots",
+    "name": "Green Dynamitra",
+    "size": {
+      "oz": "dollar",
+      "1.5": 3.00
+    },
+    "description": "1.5oz servings",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Shots",
+    "name": "White Dynamitra",
+    "size": {
+      "oz": "dollar",
+      "1.5": 3.00
+    },
+    "description": "1.5oz servings",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Mocktails",
+    "name": "Piña Coal-Ada Paradise",
+    "size": {
+      "oz": "dollar",
+      "14": 9.00
+    },
+    "description": "14oz servings made with our signature recipies",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Mocktails",
+    "name": "Tourmaline Dream",
+    "size": {
+      "oz": "dollar",
+      "14": 9.00
+    },
+    "description": "14oz servings made with our signature recipies",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Mocktails",
+    "name": "Pink Passion",
+    "size": {
+      "oz": "dollar",
+      "14": 9.00
+    },
+    "description": "14oz servings made with our signature recipies",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Mocktails",
+    "name": "Tunnelers Tonic",
+    "size": {
+      "oz": "dollar",
+      "14": 9.00
+    },
+    "description": "14oz servings made with our signature recipies",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kratom Mocktails",
+    "name": "Miner's Mule",
+    "size": {
+      "oz": "dollar",
+      "14": 9.00
+    },
+    "description": "14oz servings made with our signature recipies",
+    "sub-description": "made with dynamitra or gold rush",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Blue Lotus",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Damiana",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Peppermint",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Turmeric Ginger Tea",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Echinacea & Elder Tea",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "English Breakfast Tea",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Fiery Cinnamon Spice",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Blood Orange",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Oolong Tea",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Yerba Mate",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Classic Chai",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Mint Chocolate Mate",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Hot Tea",
+    "name": "Women's Balancing Blend",
+    "size": {
+      "oz": "dollar",
+      "16": 5.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Blue Lotus",
+    "size": {
+      "oz": "dollar",
+      "1": 15.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Damiana",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Peppermint",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Turmeric Ginger Tea",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Echinacea & Elder Tea",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "English Breakfast Tea",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Fiery Cinnamon Spice",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Blood Orange",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Oolong Tea",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Yerba Mate",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Classic Chai",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Mint Chocolate Mate",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Loose Leaf Tea by the oz",
+    "name": "Women's Balancing Blend",
+    "size": {
+      "oz": "dollar",
+      "1": 10.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "true"
+  },
+  {
+    "category": "Cacao",
+    "name": "Cacao",
+    "size": {
+      "oz": "dollar",
+      "10": 7.00
+    },
+    "description": "add milk or honey at no extra cost",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Cacao",
+    "name": "Cacao with milk",
+    "size": {
+      "oz": "dollar",
+      "10": 7.00
+    },
+    "description": "add milk or honey at no extra cost",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Cacao",
+    "name": "Cacao with honey",
+    "size": {
+      "oz": "dollar",
+      "10": 7.00
+    },
+    "description": "add milk or honey at no extra cost",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Cacao",
+    "name": "Cacao with milk and honey",
+    "size": {
+      "oz": "dollar",
+      "10": 7.00
+    },
+    "description": "add milk or honey at no extra cost",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Soda & Snacks",
+    "name": "Soda",
+    "size": {
+      "qty": "dollar",
+      "1": 2.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Soda & Snacks",
+    "name": "Snack",
+    "size": {
+      "qty": "dollar",
+      "1": 2.00
+    },
+    "description": "",
+    "sub-description": "",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kula",
+    "name": "Kratom",
+    "size": {
+      "qty": "dollar",
+      "1": 7.00,
+      "2": 12.00
+    },
+    "description": "Kratom or Kava",
+    "sub-description": "12oz cans",
+    "caffeine": "false"
+  },
+  {
+    "category": "Kula",
+    "name": "Kava",
+    "size": {
+      "qty": "dollar",
+      "1": 7.00,
+      "2": 12.00
+    },
+    "description": "Kratom or Kava",
+    "sub-description": "12oz cans",
+    "caffeine": "false"
+  }
+]
+
